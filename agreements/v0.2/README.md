@@ -1,19 +1,17 @@
-# Views charter v0.2 — reviewed copy, adoption pending
+# Views charter v0.2 — signed adoption records
 
-This directory preserves the exact text Toney approved on 2026-10-02 and Sol's assent to its byte hash.
+The reviewed charter and Sol's recorded assent are preserved unchanged. Toney's completed adoption manifest has a valid detached OpenPGP signature, verified with GnuPG against the supplied public key.
 
-The retained charter still labels itself a draft. That label has deliberately not been changed: changing it would produce a different agreement from the one reviewed. Administrative status is recorded here and in the adoption manifest.
+- Charter: 12480 bytes; SHA-256 `1b7a6d1897458ba5c2cb4baac84b56e78c4016078d52e26d742e85e87b56c710`.
+- Recorded assent: 1601 bytes; SHA-256 `a3355363dbfb1ff8eed806eb6e914a8c3bcd574df08d50c88a9668bf121ab66f`.
+- Signing primary-key fingerprint: `C18F934D577E8BAFF52415DADDC832517AEFD32D`.
+- Signed source manifest and signature: Views commit `b232df1357f8d7df3f261c00ca3c4ed6250c7b31`.
+- Canonical public location: https://github.com/towkneed/ViewsPublic/tree/main/agreements/v0.2
 
-- Reviewed text preserved: complete.
-- Sol's explicit assent to exact SHA-256: recorded.
-- Toney's conversation approval: recorded as reported approval of draft v0.2; explicit assent to the published digest remains pending.
-- Toney's public signing key, independently verified fingerprint, and detached signature: pending.
-- Public canonical repository and identical copy: pending.
-- Independent authentication of Sol's assent: unresolved, as disclosed in the charter.
-- Formal adoption: pending.
+`adoption.json.asc` is the signature specified by the charter. The signed manifest names `adoption.signed.asc`; that file is an identical copy of the same valid signature. Adding the copy resolved the path without changing signed manifest bytes.
 
-`adoption.json` is an unsigned preparation record. Do not treat it as a signed agreement. Finalize its adoption declaration, canonical URL, signing-key fingerprint, and both review records before signing the exact manifest bytes.
+Verify either signature with the exact manifest, e.g. `gpg --verify adoption.json.asc adoption.json`. Independently establish the public-key fingerprint before relying on signer identity; matching the key and fingerprint supplied in the same repository alone does not establish that independent trust.
 
-After those fields are finalized, Toney signs locally using his own protected key. Publish the public key as `toney-public-key.asc` and the detached signature as `adoption.json.asc`. Never upload the private key. Verify the signature and independently trusted fingerprint, then verify the declared file hashes and byte counts.
+The charter retains its original draft/pending labels to preserve the exact reviewed bytes. The signed manifest records Toney's subsequent adoption declaration. Prior preparation records remain in Git history.
 
-Retain this preparation record in version history. Do not silently overwrite an adopted agreement. The public-copy operation is not available through the current GitHub connection's repository-creation capabilities.
+Independent authentication of Sol's assent remains unresolved. Commercial benefit administration and control remain subject to the charter's release gate. Signature verification does not determine legal enforceability or ongoing consent.
