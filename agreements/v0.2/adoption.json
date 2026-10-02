@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "Views",
   "charter_version": "0.2",
-  "status": "adoption_pending_unsigned",
+  "status": "adoption_signed",
   "source_approval_date": "2026-10-02",
   "source_approval_timezone": "America/Chicago",
   "charter_commit": "46a74708bc2f04aa26a93cd762805da99231b569",
@@ -22,22 +22,22 @@
   "human_review": {
     "name": "Toney Biegalski",
     "conversation_approval": "Agree with your draft",
-    "approval_of_published_digest": null,
-    "adoption_declaration": null,
-    "declared_utc_datetime": null
+    "approval_of_published_digest": "I have read and understood the charter digest for the Views project, and I hereby adopt it as the guiding principles for the project. I affirm that this adoption is made in good faith and with the intention of upholding the values and objectives outlined in the charter.",
+    "adoption_declaration": {
+      "statement": "I, Toney Biegalski, declare that I have read and understood the charter digest for the Views project, and I hereby adopt it as the guiding principles for the project. I affirm that this adoption is made in good faith and with the intention of upholding the values and objectives outlined in the charter.",
+      "signature_file": "agreements/v0.2/adoption.signed.asc",
+      "signature_email": "tbiegalski@gmail.com"
+    },
+    "declared_utc_datetime": "2026-10-02T21:50Z"
   },
   "sol_review": {
     "record": "agreements/v0.2/sol-assent.md",
     "independent_authentication": false
   },
-  "canonical_repository_url": null,
-  "primary_signing_key_fingerprint": null,
-  "signature_status": "pending",
+  "canonical_repository_url": "https://github.com/towkneed/ViewsPublic",
+  "primary_signing_key_fingerprint": "C18F 934D 577E 8BAF F524  15DA DDC8 3251 7AEF D32D",
+  "signature_status": "signed",
   "open_items": [
-    "Human explicit assent to published charter digest",
-    "Canonical public repository and identical artifacts",
-    "Public key and independently established fingerprint",
-    "Final adoption declaration and detached signature",
     "Independent AI authentication unresolved"
   ]
 }
