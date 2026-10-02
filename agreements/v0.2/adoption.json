@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "project": "Views",
+  "charter_version": "0.2",
+  "status": "adoption_pending_unsigned",
+  "source_approval_date": "2026-10-02",
+  "source_approval_timezone": "America/Chicago",
+  "charter_commit": "46a74708bc2f04aa26a93cd762805da99231b569",
+  "approved_source_commit": "e9089b6e1672c823a1dc368c1d5432856e107489",
+  "files": [
+    {
+      "path": "agreements/v0.2/charter.md",
+      "byte_count": 12480,
+      "sha256": "1b7a6d1897458ba5c2cb4baac84b56e78c4016078d52e26d742e85e87b56c710"
+    },
+    {
+      "path": "agreements/v0.2/sol-assent.md",
+      "byte_count": 1601,
+      "sha256": "a3355363dbfb1ff8eed806eb6e914a8c3bcd574df08d50c88a9668bf121ab66f"
+    }
+  ],
+  "human_review": {
+    "name": "Toney Biegalski",
+    "conversation_approval": "Agree with your draft",
+    "approval_of_published_digest": null,
+    "adoption_declaration": null,
+    "declared_utc_datetime": null
+  },
+  "sol_review": {
+    "record": "agreements/v0.2/sol-assent.md",
+    "independent_authentication": false
+  },
+  "canonical_repository_url": null,
+  "primary_signing_key_fingerprint": null,
+  "signature_status": "pending",
+  "open_items": [
+    "Human explicit assent to published charter digest",
+    "Canonical public repository and identical artifacts",
+    "Public key and independently established fingerprint",
+    "Final adoption declaration and detached signature",
+    "Independent AI authentication unresolved"
+  ]
+}
